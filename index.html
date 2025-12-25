@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="All Rico Pan - Panadería y pasteleria familiar">
+  <title>All Rico Pan</title>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="data/css/style.css">
+  <link rel="stylesheet" href="data/css/darkmode.css">
+  <!-- icon -->
+  <link rel="shortcut icon" type="image/x-icon" href="data/images/AllRicoPanLogoCircle.png">
+</head>
+<body>
+
+  <nav class="darkmode">
+    <img 
+    src="data/images/AllRicoPanLogoCircle.png"
+    alt="All Rico Pan Logo"
+    width="100"
+    >
+    <button id="nav-toggle" aria-label="Abrir menú" class="nav-toggle">
+      <span class="hamburger">&#9776;</span>
+    </button>
+    <ul id="nav-links" class="nav-links">
+      <li>
+        <a href="#inicio">Inicio</a>
+      </li>
+      <li>
+        <a href="#productos">Productos</a>
+      </li>
+      <li>
+        <a href="#nosotros">Sobre Nosotros</a>
+      </li>
+      <li>
+        <a href="#reservacion">Reservación</a>
+      </li>
+      <li>
+        <a href="#contactanos">Contactanos</a>
+      </li>
+    </ul>
+  </nav>
+
+  <header id="inicio">
+    <video autoplay muted loop id="background-video" style="color: black;">
+      <source src="data/video/prototype.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <h1>All Rico Pan</h1>
+    <h2>"Somos una panadería familiar"</h2>
+  </header>
+
+  <main>
+    <section class="darkmode" id="productos">
+      <h2 class="sec-titles">Nuestros Productos</h2>
+      <div id="gallery">
+        <div class="product">
+          <img 
+          src="data/images/img-proto.png" 
+          alt="imagen de prueba"
+          width="200"
+          >
+          <h3>Titulo</h3>
+          <p>Descripción del producto</p>
+        </div>
+        <div class="product">
+          <img 
+          src="data/images/img-proto.png" 
+          alt="imagen de prueba"
+          width="200"
+          >
+          <h3>Titulo</h3>
+          <p>Descripción del producto</p>
+        </div>
+        <div class="product">
+          <img 
+          src="data/images/img-proto.png" 
+          alt="imagen de prueba"
+          width="200"
+          >
+          <h3>Titulo</h3>
+          <p>Descripción del producto</p>
+        </div>
+        <div class="product">
+          <img 
+          src="data/images/img-proto.png" 
+          alt="imagen de prueba"
+          width="200"
+          >
+          <h3>Titulo</h3>
+          <p>Descripción del producto</p>
+        </div>
+      </div>
+    </section>
+    <section class="darkmode" id="nosotros">
+      <h2 class="sec-titles">Sobre Nosotros</h2>
+      <div id="us-card" class="boxes">
+        <div class="card us-card-text">
+          <h3>¿Quienes somos?</h3>
+          <p>
+            Somos una Panadería Familiar ubicada a pasos del metro
+            estación San Ramón, estamos orgullosos de ser la opción
+            favorita de nuestros clientes, puede reunirse con amigos
+            y pedir un rico pastel recién preparado.
+            ¡Visítanos hoy mismo!
+          </p>
+        </div>
+        <img src="data/images/img-proto.png" alt="imagen de prueba" width="300">
+      </div>
+    </section>
+  </main>
+
+  <div id="btnToggle" class="darkmode">
+        <button>🔥</button>
+  </div>
+
+<!-- Scripts -->
+<script src="data/js/main.js"></script>
+<script src="data/js/darkscript.js"></script>
+</body>
+</html>
